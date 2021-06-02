@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6A25862667D6BC001C7349 /* GeoGuesserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A25852667D6BC001C7349 /* GeoGuesserApp.swift */; };
+		AB6A25882667D6BC001C7349 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A25872667D6BC001C7349 /* ContentView.swift */; };
+		AB6A258A2667D6BD001C7349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6A25892667D6BD001C7349 /* Assets.xcassets */; };
+		AB6A258D2667D6BD001C7349 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6A258C2667D6BD001C7349 /* Preview Assets.xcassets */; };
+		AB6A25982667D6BD001C7349 /* GeoGuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A25972667D6BD001C7349 /* GeoGuesserTests.swift */; };
+		AB6A25A32667D6BD001C7349 /* GeoGuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A25A22667D6BD001C7349 /* GeoGuesserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6A25942667D6BD001C7349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6A257A2667D6BC001C7349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6A25812667D6BC001C7349;
+			remoteInfo = GeoGuesser;
+		};
+		AB6A259F2667D6BD001C7349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6A257A2667D6BC001C7349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6A25812667D6BC001C7349;
+			remoteInfo = GeoGuesser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB6A25822667D6BC001C7349 /* GeoGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6A25852667D6BC001C7349 /* GeoGuesserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoGuesserApp.swift; sourceTree = "<group>"; };
+		AB6A25872667D6BC001C7349 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB6A25892667D6BD001C7349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6A258C2667D6BD001C7349 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB6A258E2667D6BD001C7349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6A25932667D6BD001C7349 /* GeoGuesserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoGuesserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6A25972667D6BD001C7349 /* GeoGuesserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoGuesserTests.swift; sourceTree = "<group>"; };
+		AB6A25992667D6BD001C7349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6A259E2667D6BD001C7349 /* GeoGuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoGuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6A25A22667D6BD001C7349 /* GeoGuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoGuesserUITests.swift; sourceTree = "<group>"; };
+		AB6A25A42667D6BD001C7349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6A257F2667D6BC001C7349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6A25902667D6BD001C7349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6A259B2667D6BD001C7349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6A25792667D6BC001C7349 = {
+			isa = PBXGroup;
+			children = (
+				AB6A25842667D6BC001C7349 /* GeoGuesser */,
+				AB6A25962667D6BD001C7349 /* GeoGuesserTests */,
+				AB6A25A12667D6BD001C7349 /* GeoGuesserUITests */,
+				AB6A25832667D6BC001C7349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6A25832667D6BC001C7349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A25822667D6BC001C7349 /* GeoGuesser.app */,
+				AB6A25932667D6BD001C7349 /* GeoGuesserTests.xctest */,
+				AB6A259E2667D6BD001C7349 /* GeoGuesserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6A25842667D6BC001C7349 /* GeoGuesser */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A25852667D6BC001C7349 /* GeoGuesserApp.swift */,
+				AB6A25872667D6BC001C7349 /* ContentView.swift */,
+				AB6A25892667D6BD001C7349 /* Assets.xcassets */,
+				AB6A258E2667D6BD001C7349 /* Info.plist */,
+				AB6A258B2667D6BD001C7349 /* Preview Content */,
+			);
+			path = GeoGuesser;
+			sourceTree = "<group>";
+		};
+		AB6A258B2667D6BD001C7349 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A258C2667D6BD001C7349 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB6A25962667D6BD001C7349 /* GeoGuesserTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A25972667D6BD001C7349 /* GeoGuesserTests.swift */,
+				AB6A25992667D6BD001C7349 /* Info.plist */,
+			);
+			path = GeoGuesserTests;
+			sourceTree = "<group>";
+		};
+		AB6A25A12667D6BD001C7349 /* GeoGuesserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A25A22667D6BD001C7349 /* GeoGuesserUITests.swift */,
+				AB6A25A42667D6BD001C7349 /* Info.plist */,
+			);
+			path = GeoGuesserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6A25812667D6BC001C7349 /* GeoGuesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6A25A72667D6BD001C7349 /* Build configuration list for PBXNativeTarget "GeoGuesser" */;
+			buildPhases = (
+				AB6A257E2667D6BC001C7349 /* Sources */,
+				AB6A257F2667D6BC001C7349 /* Frameworks */,
+				AB6A25802667D6BC001C7349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoGuesser;
+			productName = GeoGuesser;
+			productReference = AB6A25822667D6BC001C7349 /* GeoGuesser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB6A25922667D6BD001C7349 /* GeoGuesserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6A25AA2667D6BD001C7349 /* Build configuration list for PBXNativeTarget "GeoGuesserTests" */;
+			buildPhases = (
+				AB6A258F2667D6BD001C7349 /* Sources */,
+				AB6A25902667D6BD001C7349 /* Frameworks */,
+				AB6A25912667D6BD001C7349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6A25952667D6BD001C7349 /* PBXTargetDependency */,
+			);
+			name = GeoGuesserTests;
+			productName = GeoGuesserTests;
+			productReference = AB6A25932667D6BD001C7349 /* GeoGuesserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB6A259D2667D6BD001C7349 /* GeoGuesserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6A25AD2667D6BD001C7349 /* Build configuration list for PBXNativeTarget "GeoGuesserUITests" */;
+			buildPhases = (
+				AB6A259A2667D6BD001C7349 /* Sources */,
+				AB6A259B2667D6BD001C7349 /* Frameworks */,
+				AB6A259C2667D6BD001C7349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6A25A02667D6BD001C7349 /* PBXTargetDependency */,
+			);
+			name = GeoGuesserUITests;
+			productName = GeoGuesserUITests;
+			productReference = AB6A259E2667D6BD001C7349 /* GeoGuesserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6A257A2667D6BC001C7349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AB6A25812667D6BC001C7349 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					AB6A25922667D6BD001C7349 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AB6A25812667D6BC001C7349;
+					};
+					AB6A259D2667D6BD001C7349 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AB6A25812667D6BC001C7349;
+					};
+				};
+			};
+			buildConfigurationList = AB6A257D2667D6BC001C7349 /* Build configuration list for PBXProject "GeoGuesser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6A25792667D6BC001C7349;
+			productRefGroup = AB6A25832667D6BC001C7349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6A25812667D6BC001C7349 /* GeoGuesser */,
+				AB6A25922667D6BD001C7349 /* GeoGuesserTests */,
+				AB6A259D2667D6BD001C7349 /* GeoGuesserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6A25802667D6BC001C7349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6A258D2667D6BD001C7349 /* Preview Assets.xcassets in Resources */,
+				AB6A258A2667D6BD001C7349 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6A25912667D6BD001C7349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6A259C2667D6BD001C7349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6A257E2667D6BC001C7349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6A25882667D6BC001C7349 /* ContentView.swift in Sources */,
+				AB6A25862667D6BC001C7349 /* GeoGuesserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6A258F2667D6BD001C7349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6A25982667D6BD001C7349 /* GeoGuesserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6A259A2667D6BD001C7349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6A25A32667D6BD001C7349 /* GeoGuesserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB6A25952667D6BD001C7349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6A25812667D6BC001C7349 /* GeoGuesser */;
+			targetProxy = AB6A25942667D6BD001C7349 /* PBXContainerItemProxy */;
+		};
+		AB6A25A02667D6BD001C7349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6A25812667D6BC001C7349 /* GeoGuesser */;
+			targetProxy = AB6A259F2667D6BD001C7349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB6A25A52667D6BD001C7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB6A25A62667D6BD001C7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6A25A82667D6BD001C7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoGuesser/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GeoGuesser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickhaller.GeoGuesser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB6A25A92667D6BD001C7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoGuesser/Preview Content\"";
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GeoGuesser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickhaller.GeoGuesser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB6A25AB2667D6BD001C7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = GeoGuesserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickhaller.GeoGuesserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoGuesser.app/GeoGuesser";
+			};
+			name = Debug;
+		};
+		AB6A25AC2667D6BD001C7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = GeoGuesserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickhaller.GeoGuesserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoGuesser.app/GeoGuesser";
+			};
+			name = Release;
+		};
+		AB6A25AE2667D6BD001C7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = GeoGuesserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickhaller.GeoGuesserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoGuesser;
+			};
+			name = Debug;
+		};
+		AB6A25AF2667D6BD001C7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = GeoGuesserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickhaller.GeoGuesserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoGuesser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6A257D2667D6BC001C7349 /* Build configuration list for PBXProject "GeoGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6A25A52667D6BD001C7349 /* Debug */,
+				AB6A25A62667D6BD001C7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6A25A72667D6BD001C7349 /* Build configuration list for PBXNativeTarget "GeoGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6A25A82667D6BD001C7349 /* Debug */,
+				AB6A25A92667D6BD001C7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6A25AA2667D6BD001C7349 /* Build configuration list for PBXNativeTarget "GeoGuesserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6A25AB2667D6BD001C7349 /* Debug */,
+				AB6A25AC2667D6BD001C7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6A25AD2667D6BD001C7349 /* Build configuration list for PBXNativeTarget "GeoGuesserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6A25AE2667D6BD001C7349 /* Debug */,
+				AB6A25AF2667D6BD001C7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6A257A2667D6BC001C7349 /* Project object */;
+}
