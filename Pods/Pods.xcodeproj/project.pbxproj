@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+			productName = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		050254049D74CEBD1F012A91786F1CD7 /* Pods-GeoGuesser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2D078B080ECDF4D72FE957555A2E1E /* Pods-GeoGuesser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6324C0DA25776CC7623EA90A0327FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		40D1954B520631EAF280E95FF2ECB1CD /* Pods-GeoGuesser-GeoGuesserUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 909F46D69A85CAE07A3DB9CF7C62F7F8 /* Pods-GeoGuesser-GeoGuesserUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD8A3ECDBD9ADCD13CFEE4928AA4541 /* Pods-GeoGuesserTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C60A6D6A657EBA5A3387D49244E3EC /* Pods-GeoGuesserTests-dummy.m */; };
+		87B54BCA109F8555F70F1082E178A1B3 /* Pods-GeoGuesserTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A30871B59AC1BFE7251F633B8911795 /* Pods-GeoGuesserTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3BEA7F9313A72D16735CC2B9E004C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C53279D0EFEEB7B6F19F0135E112B51C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CDB0F2F984A6B899E8BA975E7A3EDCCF /* Pods-GeoGuesser-GeoGuesserUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3C6BDF36D9E5A3F339D4F66CA3B5D6 /* Pods-GeoGuesser-GeoGuesserUITests-dummy.m */; };
+		E47919E71E81D9F9BBC25923AA0D9C94 /* Pods-GeoGuesser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500B2F579392B93898FCAB3469114E9 /* Pods-GeoGuesser-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45E9123B2D96EEE35C79573E37FC3631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		700A54E06EB583D6797CABA1692EBAA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		8E0556E5959B22C1419B83D9D0ED5FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F175457243A224AD064259A0DA0D1AB6;
+			remoteInfo = "Pods-GeoGuesser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D4296F986562EF1B9A1F39F7F674B6 /* Pods-GeoGuesser-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoGuesser-resources.sh"; sourceTree = "<group>"; };
+		0BFBA7A2985599FF968955947251B66C /* Pods_GeoGuesserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoGuesserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13195C3221DD9644A87DBEB84DFBDB6E /* Pods-GeoGuesserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoGuesserTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DD69A20A97DC821A786B395258F1DF4 /* Pods-GeoGuesser-GeoGuesserUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoGuesser-GeoGuesserUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B4E0FADD283714A836D5973368CB294 /* Pods-GeoGuesser-GeoGuesserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoGuesser-GeoGuesserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FA21C8289FC293EF498014CFB06F270 /* Pods-GeoGuesser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoGuesser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47E79452C87747324FE94A6FFECAC80F /* Pods-GeoGuesser-GeoGuesserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoGuesser-GeoGuesserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A354EB9F54C835BCA56A131A1FAE6DF /* Pods-GeoGuesser-GeoGuesserUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoGuesser-GeoGuesserUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		65C60A6D6A657EBA5A3387D49244E3EC /* Pods-GeoGuesserTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoGuesserTests-dummy.m"; sourceTree = "<group>"; };
+		7500B2F579392B93898FCAB3469114E9 /* Pods-GeoGuesser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoGuesser-dummy.m"; sourceTree = "<group>"; };
+		77848958E2E0E9AA061DADE25A3A86D8 /* Pods-GeoGuesserTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoGuesserTests.modulemap"; sourceTree = "<group>"; };
+		78E19725B7552CBC3384C679F65383BA /* Pods_GeoGuesser_GeoGuesserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoGuesser_GeoGuesserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8247D8458665A19B57352443BE26BFC1 /* Pods-GeoGuesserTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoGuesserTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89F575049A925889E44EB56E337240EF /* Pods-GeoGuesserTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoGuesserTests-Info.plist"; sourceTree = "<group>"; };
+		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		909F46D69A85CAE07A3DB9CF7C62F7F8 /* Pods-GeoGuesser-GeoGuesserUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoGuesser-GeoGuesserUITests-umbrella.h"; sourceTree = "<group>"; };
+		950E3C670B3E34B96A5C6039B99CD41A /* Pods-GeoGuesser-GeoGuesserUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoGuesser-GeoGuesserUITests.modulemap"; sourceTree = "<group>"; };
+		9A30871B59AC1BFE7251F633B8911795 /* Pods-GeoGuesserTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoGuesserTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A62AC7A91F990FDA91091DE22B50302B /* Pods-GeoGuesser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoGuesser-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB779F646C19D17337C58A9240804AF6 /* Pods-GeoGuesser-GeoGuesserUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoGuesser-GeoGuesserUITests-resources.sh"; sourceTree = "<group>"; };
+		B073BF4A5A2F20244FEC8AAAA345D48B /* Pods-GeoGuesser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoGuesser.modulemap"; sourceTree = "<group>"; };
+		B2F7EBABEE74F840075F58739DBCCB44 /* Pods-GeoGuesser-GeoGuesserUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoGuesser-GeoGuesserUITests-Info.plist"; sourceTree = "<group>"; };
+		BC351472818AB83EB57C10FE23737515 /* Pods-GeoGuesserTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoGuesserTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		CEA865008BA279246ABF8B5DFC87A770 /* Pods-GeoGuesserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoGuesserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC2D078B080ECDF4D72FE957555A2E1E /* Pods-GeoGuesser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoGuesser-umbrella.h"; sourceTree = "<group>"; };
+		EA3C6BDF36D9E5A3F339D4F66CA3B5D6 /* Pods-GeoGuesser-GeoGuesserUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoGuesser-GeoGuesserUITests-dummy.m"; sourceTree = "<group>"; };
+		EFAE395C25E45B5692949885C7906C34 /* Pods_GeoGuesser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoGuesser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F259B1DCEE49102CE99D0883BC508363 /* Pods-GeoGuesser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoGuesser.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B8E3CF7E84D44966C450EACC32D67F /* Pods-GeoGuesser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoGuesser.release.xcconfig"; sourceTree = "<group>"; };
+		F97D183079FCDE01D390ADF0347CD961 /* Pods-GeoGuesser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoGuesser-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279E1C20A668E562D1697A086ACE0CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6324C0DA25776CC7623EA90A0327FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B5D9945F8BED5D4A828E1C7F1E5DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53279D0EFEEB7B6F19F0135E112B51C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB4EDD2244B73304FBB409F24AA4564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3BEA7F9313A72D16735CC2B9E004C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3A1CD90778FCB579CEF9260C830842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE395C25E45B5692949885C7906C34 /* Pods_GeoGuesser.framework */,
+				78E19725B7552CBC3384C679F65383BA /* Pods_GeoGuesser_GeoGuesserUITests.framework */,
+				0BFBA7A2985599FF968955947251B66C /* Pods_GeoGuesserTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A1DF7011B837D1E187E85A6CBFE7E0 /* Pods-GeoGuesser-GeoGuesserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				950E3C670B3E34B96A5C6039B99CD41A /* Pods-GeoGuesser-GeoGuesserUITests.modulemap */,
+				1DD69A20A97DC821A786B395258F1DF4 /* Pods-GeoGuesser-GeoGuesserUITests-acknowledgements.markdown */,
+				4A354EB9F54C835BCA56A131A1FAE6DF /* Pods-GeoGuesser-GeoGuesserUITests-acknowledgements.plist */,
+				EA3C6BDF36D9E5A3F339D4F66CA3B5D6 /* Pods-GeoGuesser-GeoGuesserUITests-dummy.m */,
+				B2F7EBABEE74F840075F58739DBCCB44 /* Pods-GeoGuesser-GeoGuesserUITests-Info.plist */,
+				AB779F646C19D17337C58A9240804AF6 /* Pods-GeoGuesser-GeoGuesserUITests-resources.sh */,
+				909F46D69A85CAE07A3DB9CF7C62F7F8 /* Pods-GeoGuesser-GeoGuesserUITests-umbrella.h */,
+				47E79452C87747324FE94A6FFECAC80F /* Pods-GeoGuesser-GeoGuesserUITests.debug.xcconfig */,
+				3B4E0FADD283714A836D5973368CB294 /* Pods-GeoGuesser-GeoGuesserUITests.release.xcconfig */,
+			);
+			name = "Pods-GeoGuesser-GeoGuesserUITests";
+			path = "Target Support Files/Pods-GeoGuesser-GeoGuesserUITests";
+			sourceTree = "<group>";
+		};
+		2C4EB33A076BB7654667F327222F2A96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		635C391EBEDEECEBED7C587C09F80C29 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */,
+				CB4FFE30125DB944A69FABB13465CBF9 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		6DC984D737DB841E41A9D175E8069AED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */,
+				8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		916C00D9271C70C37285EA320F8205EB /* Pods-GeoGuesser */ = {
+			isa = PBXGroup;
+			children = (
+				B073BF4A5A2F20244FEC8AAAA345D48B /* Pods-GeoGuesser.modulemap */,
+				3FA21C8289FC293EF498014CFB06F270 /* Pods-GeoGuesser-acknowledgements.markdown */,
+				A62AC7A91F990FDA91091DE22B50302B /* Pods-GeoGuesser-acknowledgements.plist */,
+				7500B2F579392B93898FCAB3469114E9 /* Pods-GeoGuesser-dummy.m */,
+				F97D183079FCDE01D390ADF0347CD961 /* Pods-GeoGuesser-Info.plist */,
+				02D4296F986562EF1B9A1F39F7F674B6 /* Pods-GeoGuesser-resources.sh */,
+				DC2D078B080ECDF4D72FE957555A2E1E /* Pods-GeoGuesser-umbrella.h */,
+				F259B1DCEE49102CE99D0883BC508363 /* Pods-GeoGuesser.debug.xcconfig */,
+				F7B8E3CF7E84D44966C450EACC32D67F /* Pods-GeoGuesser.release.xcconfig */,
+			);
+			name = "Pods-GeoGuesser";
+			path = "Target Support Files/Pods-GeoGuesser";
+			sourceTree = "<group>";
+		};
+		AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				6DC984D737DB841E41A9D175E8069AED /* Base */,
+				635C391EBEDEECEBED7C587C09F80C29 /* Maps */,
+				2C4EB33A076BB7654667F327222F2A96 /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB4FFE30125DB944A69FABB13465CBF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				1A3A1CD90778FCB579CEF9260C830842 /* Products */,
+				DED77139C1898B0339037F462DBD0119 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D79AB7D70B7064C653B3C03CC0D751A0 /* Pods-GeoGuesserTests */ = {
+			isa = PBXGroup;
+			children = (
+				77848958E2E0E9AA061DADE25A3A86D8 /* Pods-GeoGuesserTests.modulemap */,
+				8247D8458665A19B57352443BE26BFC1 /* Pods-GeoGuesserTests-acknowledgements.markdown */,
+				BC351472818AB83EB57C10FE23737515 /* Pods-GeoGuesserTests-acknowledgements.plist */,
+				65C60A6D6A657EBA5A3387D49244E3EC /* Pods-GeoGuesserTests-dummy.m */,
+				89F575049A925889E44EB56E337240EF /* Pods-GeoGuesserTests-Info.plist */,
+				9A30871B59AC1BFE7251F633B8911795 /* Pods-GeoGuesserTests-umbrella.h */,
+				CEA865008BA279246ABF8B5DFC87A770 /* Pods-GeoGuesserTests.debug.xcconfig */,
+				13195C3221DD9644A87DBEB84DFBDB6E /* Pods-GeoGuesserTests.release.xcconfig */,
+			);
+			name = "Pods-GeoGuesserTests";
+			path = "Target Support Files/Pods-GeoGuesserTests";
+			sourceTree = "<group>";
+		};
+		DED77139C1898B0339037F462DBD0119 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				916C00D9271C70C37285EA320F8205EB /* Pods-GeoGuesser */,
+				28A1DF7011B837D1E187E85A6CBFE7E0 /* Pods-GeoGuesser-GeoGuesserUITests */,
+				D79AB7D70B7064C653B3C03CC0D751A0 /* Pods-GeoGuesserTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		483E37932584D19D5B00C195AA465457 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050254049D74CEBD1F012A91786F1CD7 /* Pods-GeoGuesser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EC88FFC6BA5ECCF12505D6479CFFE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D1954B520631EAF280E95FF2ECB1CD /* Pods-GeoGuesser-GeoGuesserUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65222CCA2C3BDC31512E1C2D92DC402 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B54BCA109F8555F70F1082E178A1B3 /* Pods-GeoGuesserTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A747D2FCE5DCEC12152AC867BFD7932 /* Pods-GeoGuesser-GeoGuesserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173283221B775DB1D1384D9DE75F8EA5 /* Build configuration list for PBXNativeTarget "Pods-GeoGuesser-GeoGuesserUITests" */;
+			buildPhases = (
+				A1EC88FFC6BA5ECCF12505D6479CFFE0 /* Headers */,
+				C7973EF2817B1E069C0B9896B25B5AC4 /* Sources */,
+				BBB4EDD2244B73304FBB409F24AA4564 /* Frameworks */,
+				8124051126153EE74B426FE05A79C2C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5BF70665B13A671B59C785D17A3243 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoGuesser-GeoGuesserUITests";
+			productName = "Pods-GeoGuesser-GeoGuesserUITests";
+			productReference = 78E19725B7552CBC3384C679F65383BA /* Pods_GeoGuesser_GeoGuesserUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAE7AF8E3AC060E4DD64A1138A2F7264 /* Pods-GeoGuesserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411FF2D119B674AA3942E4440D8399D6 /* Build configuration list for PBXNativeTarget "Pods-GeoGuesserTests" */;
+			buildPhases = (
+				E65222CCA2C3BDC31512E1C2D92DC402 /* Headers */,
+				E0240C405656B6B8088957A70FAA6A06 /* Sources */,
+				279E1C20A668E562D1697A086ACE0CD8 /* Frameworks */,
+				73F1E6EEEFDD51DAB98083E5564B33CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F1FFBBA9D131D510B6C6CAE95788D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoGuesserTests";
+			productName = "Pods-GeoGuesserTests";
+			productReference = 0BFBA7A2985599FF968955947251B66C /* Pods_GeoGuesserTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F175457243A224AD064259A0DA0D1AB6 /* Pods-GeoGuesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088FFADFACE78530577D42BA80D41E32 /* Build configuration list for PBXNativeTarget "Pods-GeoGuesser" */;
+			buildPhases = (
+				483E37932584D19D5B00C195AA465457 /* Headers */,
+				67E2BCA4A21E021587AE2DA3D17D35F0 /* Sources */,
+				34B5D9945F8BED5D4A828E1C7F1E5DF1 /* Frameworks */,
+				06CB1062242649B9A445CD092F3B006E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22716A015BBAB7E669952F2A6C65E9F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoGuesser";
+			productName = "Pods-GeoGuesser";
+			productReference = EFAE395C25E45B5692949885C7906C34 /* Pods_GeoGuesser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1A3A1CD90778FCB579CEF9260C830842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				F175457243A224AD064259A0DA0D1AB6 /* Pods-GeoGuesser */,
+				1A747D2FCE5DCEC12152AC867BFD7932 /* Pods-GeoGuesser-GeoGuesserUITests */,
+				AAE7AF8E3AC060E4DD64A1138A2F7264 /* Pods-GeoGuesserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CB1062242649B9A445CD092F3B006E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73F1E6EEEFDD51DAB98083E5564B33CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8124051126153EE74B426FE05A79C2C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E2BCA4A21E021587AE2DA3D17D35F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47919E71E81D9F9BBC25923AA0D9C94 /* Pods-GeoGuesser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7973EF2817B1E069C0B9896B25B5AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB0F2F984A6B899E8BA975E7A3EDCCF /* Pods-GeoGuesser-GeoGuesserUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0240C405656B6B8088957A70FAA6A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD8A3ECDBD9ADCD13CFEE4928AA4541 /* Pods-GeoGuesserTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22716A015BBAB7E669952F2A6C65E9F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 45E9123B2D96EEE35C79573E37FC3631 /* PBXContainerItemProxy */;
+		};
+		A3F1FFBBA9D131D510B6C6CAE95788D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GeoGuesser";
+			target = F175457243A224AD064259A0DA0D1AB6 /* Pods-GeoGuesser */;
+			targetProxy = 8E0556E5959B22C1419B83D9D0ED5FC3 /* PBXContainerItemProxy */;
+		};
+		AB5BF70665B13A671B59C785D17A3243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 700A54E06EB583D6797CABA1692EBAA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E7C319D6B80F1E2FF242F3AB000E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E79452C87747324FE94A6FFECAC80F /* Pods-GeoGuesser-GeoGuesserUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoGuesser-GeoGuesserUITests/Pods-GeoGuesser-GeoGuesserUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoGuesser-GeoGuesserUITests/Pods-GeoGuesser-GeoGuesserUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CF0EEE54B958331F6FB7932E264BEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B8E3CF7E84D44966C450EACC32D67F /* Pods-GeoGuesser.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FFECE985C48588C83A645EB644DDA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60D965751414B5A6AC5B213EFFEB01AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64A9C212F9BA3F25D2A17BDC604CD85A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA865008BA279246ABF8B5DFC87A770 /* Pods-GeoGuesserTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81441AA8044A442914703857D3A39523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13195C3221DD9644A87DBEB84DFBDB6E /* Pods-GeoGuesserTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoGuesserTests/Pods-GeoGuesserTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0CD919B7398D67E7BE180EFF8516DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F259B1DCEE49102CE99D0883BC508363 /* Pods-GeoGuesser.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoGuesser/Pods-GeoGuesser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBE4A4100C230C0C7C2E70FB9080EE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4E0FADD283714A836D5973368CB294 /* Pods-GeoGuesser-GeoGuesserUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoGuesser-GeoGuesserUITests/Pods-GeoGuesser-GeoGuesserUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoGuesser-GeoGuesserUITests/Pods-GeoGuesser-GeoGuesserUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088FFADFACE78530577D42BA80D41E32 /* Build configuration list for PBXNativeTarget "Pods-GeoGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CD919B7398D67E7BE180EFF8516DC8 /* Debug */,
+				2CF0EEE54B958331F6FB7932E264BEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173283221B775DB1D1384D9DE75F8EA5 /* Build configuration list for PBXNativeTarget "Pods-GeoGuesser-GeoGuesserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E7C319D6B80F1E2FF242F3AB000E0E /* Debug */,
+				DBE4A4100C230C0C7C2E70FB9080EE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411FF2D119B674AA3942E4440D8399D6 /* Build configuration list for PBXNativeTarget "Pods-GeoGuesserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A9C212F9BA3F25D2A17BDC604CD85A /* Debug */,
+				81441AA8044A442914703857D3A39523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D965751414B5A6AC5B213EFFEB01AC /* Debug */,
+				2FFECE985C48588C83A645EB644DDA23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
